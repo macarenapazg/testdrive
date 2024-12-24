@@ -1,0 +1,43 @@
+export const quizData = [
+    { image: "img/1.png", question: "¿Cuál es el límite de velocidad en zonas urbanas?", options: ["50 km/h", "60 km/h", "80 km/h", "100 km/h"], correct: 0, points: 1 },
+    { image: "img/2.png", question: "¿Qué debes hacer frente a un semáforo en rojo?", options: ["Detenerte", "Avanzar con precaución", "Tocar la bocina", "Acelerar"], correct: 0, points: 1 },
+    { image: "img/3.png", question: "¿Cuál es la edad mínima para obtener una licencia de conducir?", options: ["16 años", "18 años", "20 años", "21 años"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/4.png", question: "¿Qué significa una señal de ceda el paso?", options: ["Parar completamente", "Avanzar con precaución", "Dar prioridad al otro vehículo", "Acelerar"], correct: 2, points: 1 },
+    { image: "img/5.png", question: "¿Qué indica una línea amarilla continua?", options: ["Prohibido adelantar", "Zona escolar", "Estacionamiento permitido", "Inicio de autopista"], correct: 0, points: 1 },
+    { image: "img/6.png", question: "¿Qué debes hacer si ves un vehículo de emergencia con luces encendidas?", options: ["Acelerar", "Ceder el paso", "Mantener tu velocidad", "Tocar la bocina"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/7.png", question: "¿Qué debes revisar antes de un viaje largo?", options: ["Luces", "Neumáticos", "Nivel de aceite", "Todo lo anterior"], correct: 3, points: 1 },
+    { image: "img/8.png", question: "¿Qué indica una luz amarilla intermitente?", options: ["Parar completamente", "Avanzar con precaución", "Dar prioridad", "Zona escolar"], correct: 1, points: 1 },
+    { image: "img/9.png", question: "¿Qué significa una señal de tránsito con un círculo rojo y una línea diagonal?", options: ["Advertencia", "Prohibición", "Indicación", "Información"], correct: 1, points: 1 },
+    { image: "img/10.png", question: "¿Cuánto alcohol en sangre está permitido para conducir en Chile?", options: ["0.3 g/L", "0.5 g/L", "0.8 g/L", "Ninguno"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/11.png", question: "¿Qué significa una señal triangular con un ciervo?", options: ["Zona de caza", "Zona de animales salvajes", "Prohibido animales", "Área de peligro"], correct: 1, points: 1 },
+    { image: "img/12.png", question: "¿Qué debes hacer en una rotonda?", options: ["Parar completamente", "Ceder el paso a los vehículos en la rotonda", "Avanzar con precaución", "Tocar la bocina"], correct: 1, points: 1 },
+    { image: "img/13.png", question: "¿Qué significa una luz roja intermitente?", options: ["Parar completamente", "Avanzar con precaución", "Zona escolar", "Peligro"], correct: 0, points: 2 }, // Doble puntaje
+    { image: "img/14.png", question: "¿Qué vehículo tiene prioridad en un cruce no regulado?", options: ["El vehículo más rápido", "El vehículo más grande", "El vehículo a tu derecha", "El vehículo que llegó primero"], correct: 2, points: 1 },
+    { image: "img/15.png", question: "¿Qué debes hacer si tu vehículo comienza a derrapar?", options: ["Frenar rápidamente", "Girar en la dirección del derrape", "Acelerar", "Mantener el volante recto"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/16.png", question: "¿Cuál es el significado de una señal azul con una 'P'?", options: ["Prohibido estacionar", "Zona de estacionamiento permitido", "Estacionamiento exclusivo para taxis", "Zona de carga"], correct: 1, points: 1 },
+    { image: "img/17.png", question: "¿Qué indica una línea blanca discontinua en la carretera?", options: ["Prohibido adelantar", "Zona de estacionamiento", "Límite de carriles", "Adelantar permitido"], correct: 3, points: 1 },
+    { image: "img/18.png", question: "¿Qué significa una señal de STOP?", options: ["Reducir la velocidad", "Parar completamente", "Ceder el paso", "Acelerar"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/19.png", question: "¿Qué distancia mínima debes mantener con el vehículo de adelante?", options: ["1 metro", "10 metros", "Una distancia que permita detenerte a tiempo", "2 metros"], correct: 2, points: 1 },
+    { image: "img/20.png", question: "¿Qué es lo primero que debes hacer en caso de un accidente de tránsito?", options: ["Huir del lugar", "Asegurarte de que no haya heridos", "Llamar a tu seguro", "Tocar la bocina"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/1.png", question: "¿Cuál es el límite de velocidad en zonas urbanas?", options: ["50 km/h", "60 km/h", "80 km/h", "100 km/h"], correct: 0, points: 1 },
+    { image: "img/2.png", question: "¿Qué debes hacer frente a un semáforo en rojo?", options: ["Detenerte", "Avanzar con precaución", "Tocar la bocina", "Acelerar"], correct: 0, points: 1 },
+    { image: "img/3.png", question: "¿Cuál es la edad mínima para obtener una licencia de conducir?", options: ["16 años", "18 años", "20 años", "21 años"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/4.png", question: "¿Qué significa una señal de ceda el paso?", options: ["Parar completamente", "Avanzar con precaución", "Dar prioridad al otro vehículo", "Acelerar"], correct: 2, points: 1 },
+    { image: "img/5.png", question: "¿Qué indica una línea amarilla continua?", options: ["Prohibido adelantar", "Zona escolar", "Estacionamiento permitido", "Inicio de autopista"], correct: 0, points: 1 },
+    { image: "img/6.png", question: "¿Qué debes hacer si ves un vehículo de emergencia con luces encendidas?", options: ["Acelerar", "Ceder el paso", "Mantener tu velocidad", "Tocar la bocina"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/7.png", question: "¿Qué debes revisar antes de un viaje largo?", options: ["Luces", "Neumáticos", "Nivel de aceite", "Todo lo anterior"], correct: 3, points: 1 },
+    { image: "img/8.png", question: "¿Qué indica una luz amarilla intermitente?", options: ["Parar completamente", "Avanzar con precaución", "Dar prioridad", "Zona escolar"], correct: 1, points: 1 },
+    { image: "img/9.png", question: "¿Qué significa una señal de tránsito con un círculo rojo y una línea diagonal?", options: ["Advertencia", "Prohibición", "Indicación", "Información"], correct: 1, points: 1 },
+    { image: "img/10.png", question: "¿Cuánto alcohol en sangre está permitido para conducir en Chile?", options: ["0.3 g/L", "0.5 g/L", "0.8 g/L", "Ninguno"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/11.png", question: "¿Qué significa una señal triangular con un ciervo?", options: ["Zona de caza", "Zona de animales salvajes", "Prohibido animales", "Área de peligro"], correct: 1, points: 1 },
+    { image: "img/12.png", question: "¿Qué debes hacer en una rotonda?", options: ["Parar completamente", "Ceder el paso a los vehículos en la rotonda", "Avanzar con precaución", "Tocar la bocina"], correct: 1, points: 1 },
+    { image: "img/13.png", question: "¿Qué significa una luz roja intermitente?", options: ["Parar completamente", "Avanzar con precaución", "Zona escolar", "Peligro"], correct: 0, points: 2 }, // Doble puntaje
+    { image: "img/14.png", question: "¿Qué vehículo tiene prioridad en un cruce no regulado?", options: ["El vehículo más rápido", "El vehículo más grande", "El vehículo a tu derecha", "El vehículo que llegó primero"], correct: 2, points: 1 },
+    { image: "img/15.png", question: "¿Qué debes hacer si tu vehículo comienza a derrapar?", options: ["Frenar rápidamente", "Girar en la dirección del derrape", "Acelerar", "Mantener el volante recto"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/16.png", question: "¿Cuál es el significado de una señal azul con una 'P'?", options: ["Prohibido estacionar", "Zona de estacionamiento permitido", "Estacionamiento exclusivo para taxis", "Zona de carga"], correct: 1, points: 1 },
+    { image: "img/17.png", question: "¿Qué indica una línea blanca discontinua en la carretera?", options: ["Prohibido adelantar", "Zona de estacionamiento", "Límite de carriles", "Adelantar permitido"], correct: 3, points: 1 },
+    { image: "img/18.png", question: "¿Qué significa una señal de STOP?", options: ["Reducir la velocidad", "Parar completamente", "Ceder el paso", "Acelerar"], correct: 1, points: 2 }, // Doble puntaje
+    { image: "img/19.png", question: "¿Qué distancia mínima debes mantener con el vehículo de adelante?", options: ["1 metro", "10 metros", "Una distancia que permita detenerte a tiempo", "2 metros"], correct: 2, points: 1 },
+    { image: "img/20.png", question: "¿Qué es lo primero que debes hacer en caso de un accidente de tránsito?", options: ["Huir del lugar", "Asegurarte de que no haya heridos", "Llamar a tu seguro", "Tocar la bocina"], correct: 1, points: 2 }, // Doble puntaje
+    // Añade más preguntas aquí siguiendo el mismo formato
+  ];
